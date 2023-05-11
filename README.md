@@ -47,8 +47,17 @@ We tested the different models and basedn on the accuracy score we settled on th
 ![image](https://github.com/MaryMurugami/PHASE_3_PROJECT/assets/122040156/098e474c-7d9d-446a-b81e-c2ae2208237e)
 
 ## Recommendations
+For large complex datasets like the Tanzania wells data, which had 59,400 observations, simple data analysis using Excel would be difficult, so Machine Learning is ideal because it is used for large complex datasets allowing the visualization of patterns and relationships that would ideally be missed by simple data analysis methods.The Tanzania well dataset has both categorical and numerical datasets, so ML was able to provide algorithms to identify patterns and relationships in the data such as in places where wells in a sparse population, the wells was rarely used and needed repair. Such wells need to be identified if there is need for repair or maintenance
 
+For large dataset, data cleaning is key to ensure data quality prior to applying ML algorithms, in this data we dropped variables like latitude, longitude, district codes etc. which were not necessary for our model. The characteristic of the dataset is determined by the data type and goal of analysis, e.g. For the Tanzania wells data set we used Decision tress KNN was the best model it had 73.9%  accuracy score meaning the model correctly predicted the classification levels
+The analysis showed that data collected should highlight more on non-functional pumps or those in need of repair so that they can plan resource allocation for repairs and maintenance 
 
+CONCLUSION/SUGGESTIONS
+Areas requiring improvement to further increase our preffered models' predictive power:
+
+- Further Tuning: More fine tuning to improve model accuracy
+- Try More Classifiers & Consider using more complex ensemble models (Bagging, Stacking)
+- Consider using more features provided in Original dataset
 
 
 
