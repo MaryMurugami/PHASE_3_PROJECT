@@ -3,7 +3,7 @@ TANZANIA WATER WELLS CLASSIFICATION
 
 ## BUSINESS UNDERSTANDING
 
-anzania is an East African developing country known for its vast wilderness areas and an estimated population of 63 Million in East Africa. One of the key challenges faced by most developing countries in the region is access & provision of clean water; this problem is exacerbated during the dry seasons when majority of existing wells run dry. Despite the establishment of many water points in the country, some are in need of repair while others have failed altogether.
+Tanzania is an East African developing country known for its vast wilderness areas and an estimated population of 63 Million in East Africa. One of the key challenges faced by most developing countries in the region is access & provision of clean water; this problem is exacerbated during the dry seasons when majority of existing wells run dry. Despite the establishment of many water points in the country, some are in need of repair while others have failed altogether.
 
 ### Objective
 
@@ -45,6 +45,12 @@ We Imported the necessary Libraries, Loaded & Inspected the Datasets, then conve
 ## Data Modelling
 We tested the different models and basedn on the accuracy score we settled on the KNN classifier 
 ![image](https://github.com/MaryMurugami/PHASE_3_PROJECT/assets/122040156/098e474c-7d9d-446a-b81e-c2ae2208237e)
+
+## Recommendations
+
+
+
+
 
 
 
